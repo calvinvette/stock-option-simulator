@@ -1,0 +1,7 @@
+devhost: localhost
+port: 3000
+mockServer:
+  stock_uri: http://{devhost}:{port}/v1/marketdata/{symbol}/quotes
+  option_uri: http://{devhost}:{port}/v1/marketdata/chains?symbol={symbol}
+simulation:
+  updateInterval: 250 # in milliseconds

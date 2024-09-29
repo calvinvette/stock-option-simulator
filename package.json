@@ -1,0 +1,32 @@
+{
+  "name": "stock-option-simulator",
+  "version": "0.0.1",
+  "description": "``` stock-option-simulator implementing simulated stock price changes and Blacks-Scholes-derived option prices",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "test/app.js",
+    "build": "npx tsc",
+    "run": "node src/server.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calvinvette/stock-option-simulator.git"
+  },
+  "keywords": [
+    "TD",
+    "Ameritrade",
+    "Stock",
+    "Option"
+  ],
+  "author": "Calvin Vette <calvinvette@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calvinvette/stock-option-simulator/issues"
+  },
+  "homepage": "https://github.com/calvinvette/stock-option-simulator#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "js-yaml": "^4.1.0"
+  }
+}
